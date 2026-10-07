@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julinha Doces</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: "Work Sans", sans-serif;
+    }
+
+    h1, h2, h3, .fonte-titulo {
+      font-family: "Fraunces", serif;
+    }
+  </style>
+</head>
+<body class="bg-[#fffafc] text-[#38313c]">
+  <!-- Menu principal -->
+  <header class="bg-[#f8eaf3]">
+    <nav class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-4">
+      <a href="#inicio" class="flex items-center gap-2 text-xl font-semibold text-[#53445f]">
+        <img src="assets/icone-cupcake.png" alt="" class="h-10 w-10 rounded-full object-cover">
+        <span class="fonte-titulo">Julinha Doces</span>
+      </a>
+
+      <div class="flex flex-wrap items-center gap-5 text-sm font-medium text-[#62576a]">
+        <a href="#inicio" class="hover:text-[#c64d83]">Início</a>
+        <a href="#sobre" class="hover:text-[#c64d83]">Sobre</a>
+        <a href="#galeria" class="hover:text-[#c64d83]">Galeria</a>
+        <a href="#depoimento" class="hover:text-[#c64d83]">Depoimento</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Apresentação -->
+    <section id="inicio" class="bg-[#fff4f8]">
+      <div class="mx-auto grid max-w-6xl items-center gap-10 px-6 py-14 md:grid-cols-2 md:py-20">
+        <div>
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.16em] text-[#ba5c87]">Feitos com carinho</p>
+          <h1 class="max-w-xl text-4xl font-semibold leading-tight text-[#44364e] md:text-5xl">
+            Um docinho pode deixar o dia mais feliz.
+          </h1>
+          <p class="mt-5 max-w-lg leading-7 text-[#716776]">
+            Na Julinha Doces, cada receita é preparada com cuidado para adoçar seus momentos especiais. Escolha seus favoritos e aproveite!
+          </p>
+          <a href="#galeria" class="mt-7 inline-block rounded-full bg-[#d985aa] px-6 py-3 text-sm font-semibold text-white hover:bg-[#c76e97]">
+            Conheça nossos doces
+          </a>
+        </div>
+
+        <div class="space-y-4">
+          <article class="flex items-center gap-4 border-t border-[#e8dbe7] pt-4">
+            <span class="h-8 w-8 shrink-0 rounded-sm bg-[#9a573f]" aria-hidden="true"></span>
+            <div>
+              <h2 class="text-base font-semibold text-[#44364e]">Chocolates artesanais</h2>
+              <p class="mt-1 text-sm text-[#716776]">Docinhos para presentear e compartilhar.</p>
+            </div>
+          </article>
+          <article class="flex items-center gap-4 border-t border-[#e8dbe7] pt-4">
+            <span class="h-8 w-8 shrink-0 rounded-sm bg-[#d985aa]" aria-hidden="true"></span>
+            <div>
+              <h2 class="text-base font-semibold text-[#44364e]">Balas e jujubas</h2>
+              <p class="mt-1 text-sm text-[#716776]">Cores e sabores para deixar o dia mais alegre.</p>
+            </div>
+          </article>
+          <article class="flex items-center gap-4 border-y border-[#e8dbe7] py-4">
+            <span class="h-8 w-8 shrink-0 rounded-sm bg-[#9ac9df]" aria-hidden="true"></span>
+            <div>
+              <h2 class="text-base font-semibold text-[#44364e]">Bolos e sobremesas</h2>
+              <p class="mt-1 text-sm text-[#716776]">Uma opção gostosa para comemorar momentos especiais.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre em quatro etapas -->
+    <section id="sobre" class="bg-[#f1edfb]">
+      <div class="mx-auto max-w-6xl px-6 py-14 md:py-16">
+        <div class="max-w-2xl">
+          <p class="text-sm font-semibold uppercase tracking-[0.16em] text-[#8872a6]">Nosso jeitinho</p>
+          <h2 class="mt-2 text-3xl font-semibold text-[#44364e]">Como fazemos nossos doces</h2>
+          <p class="mt-3 leading-7 text-[#716776]">Da escolha dos ingredientes até a entrega, cuidamos de cada parte com muito carinho.</p>
+        </div>
+
+        <div class="mt-9 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="border-t-2 border-[#d985aa] pt-4">
+            <p class="fonte-titulo text-2xl font-semibold text-[#c76e97]">01</p>
+            <h3 class="mt-2 text-lg font-semibold text-[#44364e]">Escolhemos</h3>
+            <p class="mt-2 text-sm leading-6 text-[#716776]">Usamos ingredientes gostosos para começar cada receita.</p>
+          </article>
+          <article class="border-t-2 border-[#b9a8db] pt-4">
+            <p class="fonte-titulo text-2xl font-semibold text-[#8872a6]">02</p>
+            <h3 class="mt-2 text-lg font-semibold text-[#44364e]">Preparamos</h3>
+            <p class="mt-2 text-sm leading-6 text-[#716776]">Fazemos tudo com atenção e um toque caseiro.</p>
+          </article>
+          <article class="border-t-2 border-[#9ac9df] pt-4">
+            <p class="fonte-titulo text-2xl font-semibold text-[#5c9bb7]">03</p>
+            <h3 class="mt-2 text-lg font-semibold text-[#44364e]">Decoramos</h3>
+            <p class="mt-2 text-sm leading-6 text-[#716776]">Caprichamos na decoração para deixar cada doce especial.</p>
+          </article>
+          <article class="border-t-2 border-[#d985aa] pt-4">
+            <p class="fonte-titulo text-2xl font-semibold text-[#c76e97]">04</p>
+            <h3 class="mt-2 text-lg font-semibold text-[#44364e]">Entregamos</h3>
+            <p class="mt-2 text-sm leading-6 text-[#716776]">Seu pedido fica pronto para adoçar uma ocasião feliz.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria de doces -->
+    <section id="galeria" class="bg-[#fffafc]">
+      <div class="mx-auto max-w-6xl px-6 py-14 md:py-16">
+        <p class="text-sm font-semibold uppercase tracking-[0.16em] text-[#ba5c87]">Uma galeria bem gostosa</p>
+        <h2 class="mt-2 text-3xl font-semibold text-[#44364e]">Alguns dos nossos favoritos</h2>
+
+        <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <figure class="overflow-hidden rounded-2xl bg-[#f8eaf3] sm:col-span-2 sm:row-span-2">
+            <img src="assets/chocolates.jpg" alt="Variedade de chocolates" class="h-64 w-full object-cover sm:h-full sm:min-h-[26rem]">
+            <figcaption class="px-4 py-3 font-medium text-[#53445f]">Chocolates para compartilhar</figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded-2xl bg-[#f1edfb]">
+            <img src="assets/doces-coloridos.jpg" alt="Balas coloridas" class="h-48 w-full object-cover">
+            <figcaption class="px-4 py-3 font-medium text-[#53445f]">Balas coloridas</figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded-2xl bg-[#eaf5fb]">
+            <img src="assets/jujubas.jpg" alt="Jujubas coloridas" class="h-48 w-full object-cover">
+            <figcaption class="px-4 py-3 font-medium text-[#53445f]">Jujubas açucaradas</figcaption>
+          </figure>
+          <figure class="overflow-hidden rounded-2xl bg-[#f8eaf3] lg:col-span-2">
+            <img src="assets/mesa-de-doces.jpg" alt="Bolos e sobremesas variados" class="h-48 w-full object-cover">
+            <figcaption class="px-4 py-3 font-medium text-[#53445f]">Bolos e sobremesas</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Depoimento -->
+    <section id="depoimento" class="bg-[#eaf5fb]">
+      <div class="mx-auto max-w-4xl px-6 py-14 text-center md:py-16">
+        <p class="text-sm font-semibold uppercase tracking-[0.16em] text-[#5c9bb7]">Quem já provou</p>
+        <h2 class="mt-2 text-3xl font-semibold text-[#44364e]">Um carinho em forma de doce</h2>
+        <blockquote class="fonte-titulo mx-auto mt-7 max-w-2xl text-xl italic leading-8 text-[#53445f] md:text-2xl">
+          “Os doces estavam deliciosos e deixaram a comemoração ainda mais especial. Feitos com muito capricho!”
+        </blockquote>
+        <p class="mt-5 text-sm font-semibold text-[#716776]">— Marina, cliente da Julinha Doces</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-[#44364e] text-[#fffafc]">
+    <div class="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-7 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
+      <p class="fonte-titulo text-xl">Julinha Doces</p>
+      <p class="text-sm text-[#eadfeb]">Doces feitos com carinho para momentos especiais.</p>
+      <p class="text-xs text-[#d8cddd]">© 2026 Julinha Doces</p>
+    </div>
+  </footer>
+</body>
+</html>
