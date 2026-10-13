@@ -1,0 +1,11 @@
+services:
+  biblioteca-ficticia:
+    build: .
+    container_name: biblioteca-ficticia
+    ports:
+      - "5000:5000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      - FLASK_ENV=production
