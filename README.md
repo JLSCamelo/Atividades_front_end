@@ -41,7 +41,7 @@ O site inclui:
 
 Cada atividade deve permanecer em sua própria pasta, com seus arquivos de execução, estilos, imagens e documentação local quando necessário.
 
-Para executar o projeto Barba Negra Livros:
+Para executar o projeto:
 
 ```bash
 cd outputs/biblioteca-ficticia
